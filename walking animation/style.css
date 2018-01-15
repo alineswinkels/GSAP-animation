@@ -1,0 +1,22 @@
+body {
+    background-color: #F8E5EE;
+}
+
+svg {
+    width: 40%;
+    padding: 10vh 30%;
+    overflow: visible;
+}
+
+#remsporen {
+    opacity: 0;
+}
+
+@media screen and (max-width: 700px) {
+    svg {
+        width: 80%;
+        padding: 20vh 10%;
+        /*margin-left: 10%;
+        margin-top: 20vh;*/
+    }
+}
